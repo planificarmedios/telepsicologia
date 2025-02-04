@@ -841,12 +841,20 @@ section,
   background-size: cover;
 }
 
+/*
 .hero-logo {
-  width: 100%;  /* Makes image responsive (full width of parent) */
-  max-width: 100%;  /* Adjust to your preferred size */
-  height: auto;  /* Maintains aspect ratio */
-  display: block;  /* Needed for margin auto to work */
-  margin: 0 auto;  /* Centers the image */
+  width: 100%;  /* Makes image responsive (full width of parent) 
+  max-width: 100%;  /* Adjust to your preferred size 
+  height: auto;  /* Maintains aspect ratio 
+  display: block;  /* Needed for margin auto to work 
+  margin: 0 auto;  /* Centers the image 
+} */
+
+.hero-logo {
+  max-width: 50vw; /* Define un tamaño máximo en píxeles en lugar de 100% */
+  height: auto; 
+  display: block;
+  margin: 0 auto;
 }
 
 
