@@ -1,2 +1,0 @@
-# telepsicologia
-telepsicologia
