@@ -2000,3 +2000,25 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
+
+.custom-title-container {
+  display: flex;
+  align-items: center; /* Alinea el texto verticalmente con la imagen */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
+  text-align: center;
+  margin-bottom: 20px; /* Espacio entre el título y la imagen */
+}
+
+.custom-title-container p {
+  margin: 0;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.custom-title-container .custom-description-title {
+  font-weight: bold; /* Resalta el título */
+}
+
