@@ -2034,3 +2034,11 @@ section,
 .text-small {
   font-size: 5px;
 }
+
+.text-maxsmall {
+  font-size: 4px;
+}
+
+#aranceles p {
+  font-size: 0.75rem !important; 
+}
